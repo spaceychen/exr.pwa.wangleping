@@ -1,0 +1,8 @@
+{
+  "name": "exr.pwa.wangleping",
+  "version": "1.0.0",
+  "description": "ISBN 978-7-111-65258-8",
+  "scripts": {
+    "dev": "http-server demos"
+  }
+}

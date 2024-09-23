@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hello world</title>
+    <link rel="manifest" href="./manifest.json" />
+  </head>
+  <body>
+    <h1>pwa</h1>
+    <img src="/assets/man1.jpg" />
+    <script type="module">
+      navigator.serviceWorker
+        .register("sw.js")
+        .then(() => {
+          console.log("sw.js注册成功");
+        })
+        .catch((e) => {
+          console.log("sw.js注册失败");
+        });
+    </script>
+  </body>
+</html>

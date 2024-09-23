@@ -1,0 +1,15 @@
+{
+  "short_name": "PWA",
+  "name": "PWA_TEST",
+  "icons": [
+    {
+      "src": "/assets/ico.png",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#999",
+  "background_color": "#fff"
+}
